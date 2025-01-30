@@ -1,76 +1,76 @@
-div {
-    max-width: 1600px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-content {
-    margin: 0% auto;
-}
-.center {
+
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
     text-align: center;
+    padding: 1em 0;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+
+header img {
+    width: 50px;
+    height: auto;
 }
-#background {
-    height: 725;
-    background-color: grey;
+
+header nav {
+    margin-top: 10px;
 }
-body{
-    background-color: white;
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.section {
     text-align: center;
+    padding: 2em 0;
 }
-header{
-    background-color: rgba(20, 30, 13, .7);
+
+.section img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1em;
 }
-nav a:hover{
-    background-color: black;
-    color: skyblue;
+
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }
-.book:hover, .join:hover {
-    background-color: white;
-    color: aqua;
+
+.section p {
+    font-size: 1em;
+    color: #555;
 }
-.msg {
-    background-color: grey;
+
+.footer {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
-footer {
-    background-color: #476930;
-    color: darkgrey;
+
+.footer p {
+    margin: 0.5em 0;
 }
-nav a {
-    color: blue;
+
+.footer a {
+    color: white;
     text-decoration: none;
+    margin: 0 10px;
 }
-.home-tiile {
-    color: grey;
-}
-h4{
-    color: lightgray;
-}
-.book, .join {
-    color: blue;
-    text-decoration: none;
-}
-.msg h2{
-    color: cornflowerblue;
-}
-.msg p {
-    color: cadetblue;
-}
-footer a:hover {
-    color: darkgreen;
-}
-.icon {
-    width:  60px
-}
-footer a {
-    text-decoration: none;
-}
-footer p {
-    font-size: 1.2em;
-}
-footer p a:hover{
-    text-decoration: underline;
+
+.footer img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
 }
