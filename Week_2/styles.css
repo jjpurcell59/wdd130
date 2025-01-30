@@ -1,16 +1,76 @@
-.circle {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-radius: 50%;
-    cursor: pointer;
+div {
+    max-width: 1600px;
 }
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    cursor: pointer;
-    border: solid 10px #4c9f25;
-    margin: 50px;
-    box-shadow: 0 0 10px 3px rgba(0,0,0,.2);
+content {
+    margin: 0% auto;
+}
+.center {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#background {
+    height: 725;
+    background-color: grey;
+}
+body{
+    background-color: white;
+    text-align: center;
+}
+header{
+    background-color: rgba(20, 30, 13, .7);
+}
+nav a:hover{
+    background-color: black;
+    color: skyblue;
+}
+.book:hover, .join:hover {
+    background-color: white;
+    color: aqua;
+}
+.msg {
+    background-color: grey;
+}
+footer {
+    background-color: #476930;
+    color: darkgrey;
+}
+nav a {
+    color: blue;
+    text-decoration: none;
+}
+.home-tiile {
+    color: grey;
+}
+h4{
+    color: lightgray;
+}
+.book, .join {
+    color: blue;
+    text-decoration: none;
+}
+.msg h2{
+    color: cornflowerblue;
+}
+.msg p {
+    color: cadetblue;
+}
+footer a:hover {
+    color: darkgreen;
+}
+.icon {
+    width:  60px
+}
+footer a {
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
 }
