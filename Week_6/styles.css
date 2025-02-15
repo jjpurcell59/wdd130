@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.nav bar {
+    width: 100%;
+    background-color: #0D1B2A;
+    padding: 1rem;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    justify-content: ;
+}
