@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #4d5f40; /* Olive-green header */
+    background-color: #4d5f40; 
     color: white;
     padding: 10px 0;
     display: flex;
@@ -32,7 +32,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero Section */
+
 #hero-box {
     position: relative;
     text-align: center;
@@ -48,7 +48,7 @@ header nav a:hover {
     margin: -60px auto 20px;
     position: relative;
     z-index: 2;
-    color: #d4b585; /* Soft gold color */
+    color: #d4b585; 
 }
 
 .home-title {
@@ -58,7 +58,7 @@ header nav a:hover {
 
 .button-box .book {
     display: inline-block;
-    background-color: #b0844f; /* Light brown button */
+    background-color: #b0844f; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -72,7 +72,7 @@ header nav a:hover {
     background-color: #91673e;
 }
 
-/* Main Content */
+
 .home-grid {
     padding: 20px;
     display: flex;
@@ -102,7 +102,7 @@ h2 {
     margin: 15px 0;
 }
 
-/* Large Image Section */
+
 .mountains {
     width: 100%;
     height: auto;
@@ -112,7 +112,7 @@ h2 {
 section.msg {
     text-align: center;
     padding: 20px;
-    background-color: #e3d5c6; /* Light beige */
+    background-color: #e3d5c6; 
 }
 
 section.msg h2 {
@@ -140,7 +140,7 @@ section.msg .join:hover {
     background-color: #91673e;
 }
 
-/* Footer */
+
 footer {
     background-color: #4d5f40;
     color: white;
