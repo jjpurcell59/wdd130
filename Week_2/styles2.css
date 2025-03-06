@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4d5f40; 
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_link img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#page-header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px 20px;
+}
+
+#page-header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    color: #4d5f40;
+}
+
+#page-header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+#content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+#content-section h2 {
+    font-size: 2rem;
+    color: #4d5f40;
+    margin-bottom: 20px;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.content-box img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-box p {
+    width: 45%;
+    font-size: 1rem;
+    color: #666;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#additional-info {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#additional-info h2 {
+    font-size: 2rem;
+    color: #4d5f40;
+    margin-bottom: 20px;
+}
+
+#additional-info ul {
+    list-style-type: none;
+}
+
+#additional-info ul li {
+    font-size: 1rem;
+    color: #666;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #4d5f40;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    #content-section {
+        padding: 15px;
+    }
+
+    .content-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .content-box img,
+    .content-box p {
+        width: 100%;
+    }
+}
