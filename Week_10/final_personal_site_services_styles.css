@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poiret+One&display=swap');
+
+:root {
+  --primary-color: #E8E4DB;
+  --secondary-color: #92908A;
+  --accent1-color: #96948D;
+  --accent2-color: #ABA8A2;
+  --heading-font: "Poiret One", sans-serif;
+  --paragraph-font: "Arimo", sans-serif;
+  --nav-link-color: #bab090;
+  --nav-background-color: #96948D;
+  --nav-hover-link-color: #ABA8A2;
+  --nav-hover-background-color: #E8E4DB;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  font-family: var(--paragraph-font);
+  background-color: var(--primary-color);
+  color: var(--paragraph-color-on-white);
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  background-color: var(--paragraph-background-color);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-content {
+  text-align: left;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+}
